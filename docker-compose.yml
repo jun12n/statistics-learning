@@ -1,7 +1,6 @@
 version: '3'
 services:
   jupyterlab:
-    container_name: statistics
     build: 
       context: .
       dockerfile: Dockerfile
